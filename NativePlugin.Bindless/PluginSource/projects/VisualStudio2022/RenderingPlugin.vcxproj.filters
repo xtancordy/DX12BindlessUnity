@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\source\PlatformBase.h" />
+    <ClInclude Include="..\..\source\RenderAPI.h" />
+    <ClInclude Include="..\..\source\Unity\IUnityGraphics.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityGraphicsD3D9.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityGraphicsD3D11.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityGraphicsD3D12.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityGraphicsMetal.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Unity\IUnityInterface.h">
+      <Filter>Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gl3w\gl3w.h">
+      <Filter>gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\gl3w\glcorearb.h">
+      <Filter>gl3w</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Utils.h" />
+    <ClInclude Include="..\..\source\UAL\UnityLog.h">
+      <Filter>UAL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\RenderAPI_D3D12.h" />
+    <ClInclude Include="..\..\source\D3D12Hooks.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\RenderAPI.cpp" />
+    <ClCompile Include="..\..\source\RenderingPlugin.cpp" />
+    <ClCompile Include="..\..\source\RenderAPI_D3D12.cpp" />
+    <ClCompile Include="..\..\source\gl3w\gl3w.c">
+      <Filter>gl3w</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\UAL\UnityLog.cpp">
+      <Filter>UAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\D3D12Hook_Offsets.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Unity">
+      <UniqueIdentifier>{c01468d4-90d4-4d19-9a9b-ee2f1b5e9083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="gl3w">
+      <UniqueIdentifier>{f00ad923-e825-43a2-b22c-b3380a3a8813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{5469e969-42cc-44f8-acd7-ccc4d8d04052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UAL">
+      <UniqueIdentifier>{46107316-ff7b-45fe-952b-7bc499e2546d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\source\RenderingPlugin.def" />
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

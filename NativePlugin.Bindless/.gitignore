@@ -1,0 +1,16 @@
+*.sdf
+*.vcxproj.user
+*.VC.opendb
+.vs
+
+xcuserdata
+*.xcworkspace
+xcshareddata
+
+WSATestCertificate.pfx*
+
+PluginSource/build
+PluginSource/projects/Android/jni/libs/*
+PluginSource/projects/Android/jni/obj/*
+PluginSource/projects/VisualStudio2022/packages/
+PluginSource/projects/UWPVisualStudio2022/packages/

